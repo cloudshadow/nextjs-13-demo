@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  background-color: #275cee;
+  padding: 64px 0 128px 0;
+}
+.title {
+  display: flex;
+  font-size: 28px;
+}
+.subTitle {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  text-align: center;
+  font-size: 16px;
+  width: 360px;
+}
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  position: fixed;
+  top: 240px;
+  z-index: 1;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  min-width: 600px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 48px 32px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  gap: 16px;
+}
